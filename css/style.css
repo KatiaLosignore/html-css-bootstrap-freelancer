@@ -1,0 +1,58 @@
+/* Section */
+
+main section, footer .location {
+    min-height: 500px;    
+}
+
+footer .copyryght {
+    min-height: 200px;
+}
+
+
+.portfolio .row > [class^='col'] {
+    min-height: 400px;
+}
+
+
+.portfolio {
+    background-color: white;
+}
+
+
+/* Colors */
+
+.bg-green {
+   background-color: rgb(26,188,156);
+}
+
+.bg-violet{
+    background-color: rgb(186,75,99);
+}
+
+.bg-lightblue {
+    background-color: rgb(30,164,182);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-blue {
+    background-color: rgb(28,131,193);
+}
+
+.bg-darkblue {
+    background-color: rgb(14,56,181);
+}
+
+.bg-beige {
+    background-color: rgb(204,178,163);
+}
+
+.bg-blue-gray {
+    background-color: rgb(58,84,109);
+}
+
+.bg-darkerblue {
+    background-color: rgb(44,62,80);
+}
