@@ -11,63 +11,188 @@
     <!-- Bootstrap -->   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Header -->
-    <header></header>
+    <header>
+        <nav class="navbar navbar-expand-md bg-header">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white h1" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                <ul class="navbar-nav text-uppercase">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
 
     <!-- Main -->
     <main>
-        <section class="jumbo bg-green">
-            <div class="container">
+        <!-- Jumbotron -->
+        <section class="jumbotron bg-green">
+            <div class="container-fluid">
                 <div class="row text-center">
-                    <div class="col-12"></div>
+                    <div class="col mt-4">
+                        <img src="img/avatar.svg" alt="avatar" id="avatar">
+                        <h1 class="mt-2">START BOOTSTRAP</h1>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <span><hr></span>
+                            <i class="bi bi-star-fill mx-2"></i>
+                            <span><hr></span>
+                        </div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <P>GRAPHIC ARTIST -</P>
+                            <P>WEB DESIGNER -</P>
+                            <P>ILLUSTRATOR</P>
+                        </div>
+                    </div>
                     
                 </div>
             </div>
         </section>
 
-        <section class="portfolio">
+        <!-- Portfolio -->
+        <section class="portfolio bg-white">
             <div class="container">
-                <div class="row justify-content-center align-items-center gx-3">
-                    <div class="col-sm-12 col-md-6 col-lg-4 mt-5 mt-md-3 bg-violet rounded"></div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 bg-lightblue rounded"></div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 bg-black rounded"></div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 bg-blue rounded"></div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 bg-darkblue rounded"></div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 bg-beige rounded"></div>
-                </div>
-            </div>
-        </section>
-    
-        <section class="about bg-green mt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8"></div>
-                </div>
-            </div>
-        </section>
-    
-    </main>
-    
-    <footer>
-        <section class="location bg-blue-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12"></div>
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h5 class="text-dark mt-5">PORTFOLIO</h5>
+                        <div class="d-flex justify-content-center align-items-center mb-3">
+                            <span><hr class="star-black"></span>
+                            <i class="bi bi-star-fill mx-2 text-dark"></i>
+                            <span><hr class="star-black"></span>
+                        </div>
+                    </div>
+                </div>    
+            
+                <div class="row justify-content-center align-items-center gx-md-3">
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <img src="img/cabin.png" alt="cabin" class="rounded">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <img src="img/cake.png" alt="cake" class="rounded">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <img src="img/circus.png" alt="circus" class="rounded">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <img src="img/game.png" alt="game" class="rounded">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <img src="img/safe.png" alt="safe" class="rounded">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <img src="img/submarine.png" alt="submarine" class="rounded">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="copyryght bg-darkerblue">
+        <!-- About -->
+        <section class="about bg-green mt-5">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-12"></div>
+                    <div class="col">
+                        <h5 class="mt-5">ABOUT</h5>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <span><hr></span>
+                            <i class="bi bi-star-fill mx-2"></i>
+                            <span><hr></span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-md-5 mt-3">
+                        <P>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</P>
+                    </div>
+                    <div class="col-8 col-md-5 mt-3 mb-3">
+                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    </div>                    
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <button type="button" class="btn btn-outline-secondary mb-4"> <i class="bi bi-download"></i> Download</button>
+                    </div>
                 </div>
             </div>
         </section>
+        
+        <!-- Contact me -->
+        <section class="contacts bg-white mt-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <h5 class="text-dark mt-5">CONTACT ME</h5>
+                        <div class="d-flex justify-content-center align-items-center mb-3">
+                            <span><hr class="star-black"></span>
+                            <i class="bi bi-star-fill mx-2 text-dark"></i>
+                            <span><hr class="star-black"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <form>
+                            <div class="mb-1">
+                              <input type="text" class="form-control ps-0" placeholder="Name" id="name" name="name" required>
+                            </div>
+                            <div class="mb-1">
+                              <input type="email" class="form-control ps-0" placeholder="Email Address" id="email" name="email" required>
+                            </div>
+                            <div class="mb-1">
+                               <input type="tel" class="form-control ps-0" placeholder="Phone Number" id="phone" name="phone" required>
+                            </div>
+                            <div class="mb-2">
+                                <textarea class="form-control ps-0" placeholder="Message" id="message" name="message"></textarea>
+                            </div>
+                            <button type="submit" class="btn bg-green mb-3">Send</button>
+                        </form>           
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top bg-blue-gray">      
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">Location</div>
+                    <div class="col-12 col-md-4">Around the web</div>
+                    <div class="col-12 col-md-4">About Freelancer</div>
+                </div>
+            </div>            
+        </div>
+
+        <div class="footer-bottom bg-darkerblue">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col">Copyright</div>
+                </div>
+                
+            </div>
+        </div>
 
     </footer>
 

@@ -1,53 +1,31 @@
 /* Section */
 
-main section, footer .location {
-    min-height: 500px;    
+header nav{
+    min-height: 90px;
 }
 
-footer .copyryght {
+main section, footer .footer-top {
+    min-height: 470px;
+    color: white;
+}
+
+footer .footer-bottom {
     min-height: 200px;
 }
 
 
-.portfolio .row > [class^='col'] {
-    min-height: 400px;
-}
-
-
-.portfolio {
-    background-color: white;
-}
 
 
 /* Colors */
+
+.bg-header {
+    background-color: rgb(44,62,80);
+}
 
 .bg-green {
    background-color: rgb(26,188,156);
 }
 
-.bg-violet{
-    background-color: rgb(186,75,99);
-}
-
-.bg-lightblue {
-    background-color: rgb(30,164,182);
-}
-
-.bg-black {
-    background-color: black;
-}
-
-.bg-blue {
-    background-color: rgb(28,131,193);
-}
-
-.bg-darkblue {
-    background-color: rgb(14,56,181);
-}
-
-.bg-beige {
-    background-color: rgb(204,178,163);
-}
 
 .bg-blue-gray {
     background-color: rgb(58,84,109);
@@ -56,3 +34,77 @@ footer .copyryght {
 .bg-darkerblue {
     background-color: rgb(44,62,80);
 }
+
+
+/* Navbar */
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
+/* #Jumbotron */
+
+section #avatar {
+    width: 270px;
+}
+
+section .bi-star-fill {
+    font-size: 26px;
+}
+
+.jumbotron hr{
+    width: 65px;
+    border: 2px solid white;
+}
+
+
+/* Portfolio */
+
+.star-black {
+    width: 65px;
+    border: 2px solid black;
+}
+
+.portfolio img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* About */
+
+.about hr {
+    width: 35px;
+    border: 2px solid white;
+}
+
+.btn-outline-secondary {
+    border-color: white;
+    color: white;
+}
+
+
+
+/* Section Contact me */
+
+.contacts textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.contacts input, .contacts textarea {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+
+.contacts ::placeholder {
+    color: black;
+    font-size: 18px;
+}
+
+.contacts hr {
+    width: 35px;
+    border: 2px solid black;
+}
+
