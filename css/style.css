@@ -5,18 +5,19 @@ header nav{
 }
 
 main section, footer .footer-top {
-    min-height: 470px;
+    /* min-height: 470px; */
     color: white;
 }
 
 footer .footer-bottom {
-    min-height: 200px;
+    /* min-height: 200px; */
 }
 
 
 
 
 /* Colors */
+
 
 .bg-header {
     background-color: rgb(44,62,80);
@@ -34,6 +35,9 @@ footer .footer-bottom {
 .bg-darkerblue {
     background-color: rgb(44,62,80);
 }
+
+
+
 
 
 /* Navbar */
@@ -103,8 +107,44 @@ section .bi-star-fill {
     font-size: 18px;
 }
 
+.contact .form-control:focus{
+    box-shadow: none;
+}
+
 .contacts hr {
     width: 35px;
     border: 2px solid black;
 }
 
+.contacts .form-control {
+    padding-left: 0;
+    padding-bottom: 15px;
+}
+
+.contacts button .btn.bg-green:hover {
+    color: rgb(26,188,156);
+    border: 1px solid currentColor;
+    background-color: white;
+}
+
+
+
+/* Footer */
+
+.web-icons > li {
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-icons a {
+    color: white;
+}
+
+footer .start {
+    color: rgb(26,188,156);
+}
