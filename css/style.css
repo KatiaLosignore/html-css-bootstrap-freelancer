@@ -70,10 +70,6 @@ section .bi-star-fill {
     border: 2px solid black;
 }
 
-.portfolio img {
-    max-width: 100%;
-    display: block;
-}
 
 
 /* About */
